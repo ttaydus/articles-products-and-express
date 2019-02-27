@@ -1,4 +1,8 @@
-<h1>Products</h1>
-<div>{{{container}}}</div>
-{{!-- <div>{{{container}}}</div> --}}
+<h1>Our Product Page</h1>
+<ul>
+    {{#each productList}}
+    <ul><a href="/products{{id}}">{{name}}</a></ul>
+    {{/each}}
+</ul>
+
 
