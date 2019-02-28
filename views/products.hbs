@@ -1,8 +1,10 @@
-<h1>Our Product Page</h1>
+<h1>Product Page</h1>
 <ul>
     {{#each productList}}
-    <ul><a href="/products{{id}}">{{name}}</a></ul>
+    <li><a href="/products{{id}}">{{name}}</a></li>
     {{/each}}
 </ul>
 
-
+<form action="/products/new" method="GET">
+    <button type="submit">Add a New Product</button>
+</form>
