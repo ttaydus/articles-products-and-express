@@ -9,6 +9,7 @@ router.get('/', function (req, res) {
     res.render('products', { productList });
 })
 
+// 
 router.get('/new', (req, res) => {
     res.render('newProduct');
 })

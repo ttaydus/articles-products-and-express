@@ -45,7 +45,6 @@ class DS_Products {
             inventory
         })
         this.idNum++;
-        console.log('justen:', this.storage)
     }
 }
 
