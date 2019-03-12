@@ -40,9 +40,11 @@ router.post('/new', function (req, res) {
     let addProduct = req.body;
     knex('products').insert({name: addProduct.name, price: addProduct.price, inventory: addProduct.inventory
     }).then(() => {
-        console.log('made it')
+        
     })}
 );
+
+
 
 
 // router.post('/', function (req, res) {
